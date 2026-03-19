@@ -1,6 +1,6 @@
 # Thunderbolt Budget ⚡️
 
-A professional macOS utility for Digital Imaging Technicians (DITs), Video Editors, and Power Users to explicitly map and monitor their raw Thunderbolt & USB4 bandwidth consumption in real-time. 
+A macOS utility for to explicitly map and monitor raw Thunderbolt & USB4 bandwidth consumption in real-time. 
 
 Built natively and strictly optimized for the **Apple Silicon** architecture.
 
