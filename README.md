@@ -33,6 +33,7 @@ Thunderbolt Budget hooks directly into the core macOS `IOKit` hardware registry,
 - Port labels update every second via a live timer tied to `LiveAnalytics`
 - Fixed `@MainActor` concurrency warnings in `ContentView` and `LiveAnalytics`
 - Fixed invalid SF Symbol names (`cube`, `display.circle.fill`)
+- Replaced all app icon assets — regenerated full set from 16px up to 1024px for correct Xcode asset catalog compliance
 - Cleaned up unused files (`BandwidthManager.swift`, `ThunderboltDevice.swift`)
 
 ---
