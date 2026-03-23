@@ -8,6 +8,20 @@ Built natively and strictly optimized for the **Apple Silicon** architecture.
 
 ---
 
+## Download
+**[⬇️ Download v1.0](https://github.com/titleunknown/ThunderboltBudget/releases/tag/v1.0)** — grab the `.app` from the Assets section of the release.
+
+### First launch (Gatekeeper warning)
+Because this app is not distributed through the Mac App Store, macOS will block it on first launch. To open it:
+
+1. In Finder, **right-click** the app and choose **Open**
+2. Click **Open** again in the dialog that appears
+3. The app will launch and macOS will remember your choice going forward
+
+You only need to do this once. Alternatively, go to **System Settings → Privacy & Security** and click **Open Anyway** after the first blocked launch attempt.
+
+---
+
 ## Why this exists
 Macs have a hard maximum data throughput of **40 Gbps** per Thunderbolt controller group. When cascading intensive data hardware — like multiple NVMe RAID arrays, 10Gb Ethernet adapters, and 4K/8K displays — it is incredibly easy to silently bottleneck the bus, causing dropped frames on set or crippled offload speeds.
 
@@ -38,7 +52,7 @@ Thunderbolt Budget hooks directly into the core macOS `IOKit` hardware registry,
 
 ---
 
-## Installation
+## Build from source
 1. Clone this repository
 2. Open `ThunderboltBudget.xcodeproj` in Xcode 15+
 3. Select your local Mac as the active deployment target
